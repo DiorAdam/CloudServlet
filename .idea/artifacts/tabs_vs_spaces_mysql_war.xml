@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tabs-vs-spaces-mysql:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tabs-vs-spaces-mysql</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tabs-vs-spaces-mysql-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tabs-vs-spaces-mysql:war exploded" />
+    </root>
+  </artifact>
+</component>
